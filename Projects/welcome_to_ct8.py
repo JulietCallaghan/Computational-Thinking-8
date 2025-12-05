@@ -24,7 +24,24 @@ print(r" \_____\____/|_|  |_|_|         |_|  |_|  |_|_____|_| \_|_|\_\_____|_| \
 print(f"This codespace belongs to {name}")
 print("\n\n")
                                                                                           
-                                                                                          
-                                  
+                             
 print("Now it's your turn:")
-print("Find this line (line 30) in the welcome_to_ct8.py file, then change the message to say a fact about you.")                                  
+print ("What do you think is the lie below?")
+print("I like to Ski") 
+print ("I have two dogs")    
+print ("My dogs are named Goose and Hailey")    
+print ("Do you think you got it?")
+
+print ("I bet you didn't")    
+
+
+print ("the answer is....")
+print ("that my dogs names are Goose and Hailey. Instead fo Goose my dogs name is Lucy")        
+print ("Now its time to guess my harder two truths and one lie")
+print ("I am wearing my sambas today")
+print ("I am wearing a tank top")
+print ("and lastly, I am wearing adidas socks")
+print ("This one is a lot harder isn't it!")
+print ("the answer is....")
+print ("The lie was the first one! I am wearing birkenstocks clogs today!")
+print ("I definietly got you!")

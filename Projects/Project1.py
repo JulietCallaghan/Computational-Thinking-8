@@ -1,0 +1,5 @@
+print ("YOU ARE NOW TALKING TO CHAD THE CHAT ")
+print ("")
+print ("")
+print ("Hi!! My name mis Chad")
+name = input ("What is your name")
