@@ -37,7 +37,7 @@ if answer == 'no':
     print ()
     print ("Well ok, I had a fun time talking with you!")
     print ("Come again anytime when you need a pal by your side")
-    print ("hahha well...")
+    print ("haha well...")
     print ("SO LONG")
     print ("-CHAD THE CHAT")
     input ("")
