@@ -27,7 +27,7 @@ print ()
 print (f"For every question you get right you will gain 2 points for {animal} person")
 print ("But heres where it gets tricky...")
 print (f"For every question you get wrong, you lose a point for {animal} person and gain a point for the other animal!")
-print ("Hopefully that makes sense and press enter to start!!!")
+print ("Hopefully that makes sense and press enter to continue!!!")
 input ()
 answer = input ("Do you prefer 'A' rock climbing or 'B' swimming:")
 if answer == "A" or answer == "a" or answer == " a" or answer == " A":
