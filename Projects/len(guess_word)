@@ -1,14 +1,18 @@
 import random
 
 # Pick a word at random
-word_list = ["loopy","heart","audio","laugh","trial," "zebra," "packs," ""]
+word_list = ["loopy","heart","audio","laugh","trial", "zebra", "packs", "words", "hairs", "races", "grade"]
 hidden_word = random.choice(word_list)
 print ("WELCOME TO:")
 print("WORDLE!!!")
-print ("FYI - you have 6th guesses to guess the word!!!")
+print ("FYI - you have 6th guesses to guess the word also they are all lower case!!!")
 print ("If you don't guess the word, YOU LOSE!")
 print ()
 print ("LET'S BEGIN!!!!")
+print ()
+print ()
+print ()
+print ("Please start when you are ready:")
 
 # Repeat for 6 guesses
 for i in range(6):
@@ -57,24 +61,15 @@ for i in range(6):
     else:
         output += "⬛"
 
-
-    # Sixth Letter
-    if guess_word[5] == hidden_word[5]:
-        output += "🟩"
-    elif guess_word[5] in hidden_word:
-        output += "🟨"
-    else:
-        output += "⬛"
-
-
     # Result
     print(output)
     if output == "🟩🟩🟩🟩🟩":
         print("You win")
         print ("You got the word!!!")
         break
-    else :
-        print ("You lose")
-        print (f"The word was {hidden_word}")
+if output != "🟩🟩🟩🟩🟩":
+    print ()
+    print ("You lose")
+    print (f"The word was {hidden_word}")
 
 print(f"You used {i+1} guesses")
